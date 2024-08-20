@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #4A90E2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 100px 0;
+    background: #333;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero .btn {
+    background: #F39C12;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.projects-container .project-card {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 calc(33.333% - 40px);
+    text-align: center;
+}
+
+.projects-container .project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-me {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-me .profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
